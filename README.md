@@ -10,8 +10,6 @@ pip install -U langchain-featherless-ai
 
 And you should configure credentials by setting the following environment variables:
 
-* TODO: fill this out
-
 ## Chat Models
 
 `ChatFeatherlessAi` class exposes chat models from FeatherlessAi.
