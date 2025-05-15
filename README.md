@@ -23,17 +23,6 @@ llm = ChatFeatherlessAi()
 llm.invoke("Sing a ballad of LangChain.")
 ```
 
-## Embeddings
-
-`FeatherlessAiEmbeddings` class exposes embeddings from FeatherlessAi.
-
-```python
-from langchain_featherless_ai import FeatherlessAiEmbeddings
-
-embeddings = FeatherlessAiEmbeddings()
-embeddings.embed_query("What is the meaning of life?")
-```
-
 ## LLMs
 `FeatherlessAiLLM` class exposes LLMs from FeatherlessAi.
 
